@@ -1,44 +1,39 @@
-## Dotfiles Management with Git Bare Repository
-### Setting up the Git Bare Repository:
-- Create a directory for your git bare repository:
+## My dotfiles backed up using git bare repo 
+### Below is steps on how i setup git bare repo and how to manage going forward:
+- Create a directory for git bare repo:
     ```bash
     mkdir $HOME/dotfiles
     ```
     
-- Initialize a bare git repository:
+- Initialize a bare git repo:
     ```bash
     git init --bare $HOME/dotfiles
     ```
-
     
-### GitHub Integration:
-- [Create a new repository on GitHub](https://github.com/):
-    - Name: `dotfiles`
+- [Create a new repository on GitHub](https://github.com/MattAshford/dotfiles):
       
 - Add an alias to your shell configuration file:
     ```bash
     echo 'alias dotfiles="/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"' >> $HOME/.zshrc
     ```
     
-- Reload your shell configuration:
+- Reload shell configuration:
     ```bash
     source $HOME/.zshrc
     ```
     
-- Configure local git repository:
+- Configure local git repo:
     ```bash
     dotfiles config --local status.showUntrackedFiles no
     ```
-
-
-### Basic Usage:
+    
 - Add and commit dotfiles:
     ```bash
     dotfiles add ~/.zshrc
     dotfiles commit -m "Add .zshrc"
     ```
 
-- Set GitHub repository as the remote origin:
+- Set GitHub repo as the remote origin:
     ```bash
     dotfiles remote add origin https://github.com/MattAshford/dotfiles.git
     ```
@@ -49,7 +44,7 @@
     ```
 
 
-### Going Forward:
+### Managing dotfiles going forward:
 - Add new dotfiles:
     ```bash
     dotfiles add ~/newdotfile
@@ -64,5 +59,3 @@
     ```bash
     dotfiles push
     ```
-
-Adjust file paths, branch names, and GitHub repository URL based on your dotfiles and GitHub setup.
