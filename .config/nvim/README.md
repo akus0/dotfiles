@@ -35,7 +35,7 @@ Below is a list of plugins (some links might be wrong).
 - **[none-ls.lua](https://github.com/nvimtools/none-ls.nvim)**
 
 ## screenshots
-![Screenshot 1](./screenshot1.png)
-![Screenshot 2](./screenshot2.png)
+![nvim-dash](https://github.com/MattAshford/dotfiles/blob/master/.config/nvim/nvim-dash.png?raw=true)
+![nvim-editor](https://github.com/MattAshford/dotfiles/blob/master/.config/nvim/nvim-editor.png?raw=true)
 
 Feel free to use any of the configs. 
