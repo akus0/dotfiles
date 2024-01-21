@@ -1,0 +1,39 @@
+{
+	"name": "minimalistDarker",
+	"displayName": "MinimalistDarker",
+	"description": "Minimalist Vscode Theme ",
+	"version": "0.0.8",
+	"engines": {
+		"vscode": "^1.25.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"publisher": "caiovellaniborges",
+	"keywords": [
+		"minimalist",
+		"darktheme",
+		"dark",
+		"dark minimalist"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dark Minimalist",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Dark Minimalist-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "35cca2aa-ab48-4b12-b570-e377a90e68f6",
+		"publisherId": "098700b9-bbaa-489d-b362-98337745025d",
+		"publisherDisplayName": "rosedump",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1705103199485,
+		"pinned": false,
+		"preRelease": false
+	}
+}

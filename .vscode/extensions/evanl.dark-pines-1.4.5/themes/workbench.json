@@ -1,0 +1,20 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Workbench Colors",
+  "colors": {
+    "editor.lineHighlightBorder": "#0000",
+    "list.inactiveSelectionBackground": "#0000",
+    "scrollbar.shadow": "#0000",
+    "tab.border": "#0000",
+    "widget.shadow": "#0000",
+    "peekView.border": "#0000",
+    "editorHoverWidget.border": "#0000",
+    "editorGroup.border": "#0000",
+    "tab.lastPinnedBorder": "#0000",
+    "focusBorder": "#0000",
+    "editorSuggestWidget.border": "#0000",
+    "settings.focusedRowBackground": "#0000",
+    "settings.focusedRowBorder": "#0000",
+    "settings.rowHoverBackground": "#0000"
+  }
+}

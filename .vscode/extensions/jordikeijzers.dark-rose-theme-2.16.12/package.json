@@ -1,0 +1,46 @@
+{
+	"name": "dark-rose-theme",
+	"displayName": "Dark Rose Theme",
+	"description": "My own custom theme.",
+	"author": {
+		"name": "Jordi Keijzers"
+	},
+	"publisher": "jordikeijzers",
+	"icon": "assets/icon.png",
+	"version": "2.16.12",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.54.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jordike/dark-rose-theme"
+	},
+	"bugs": {
+		"url": "https://github.com/jordike/dark-rose-theme/issues"
+	},
+	"homepage": "https://github.com/jordike/dark-rose-theme",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dark Rose",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "93f85d0a-e8a2-42b7-85ee-97790b5f7f05",
+		"publisherId": "9c98cfe5-129c-42b5-925d-9721dce0efe6",
+		"publisherDisplayName": "Jordi Keijzers",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1705104193384,
+		"pinned": false,
+		"preRelease": false
+	}
+}

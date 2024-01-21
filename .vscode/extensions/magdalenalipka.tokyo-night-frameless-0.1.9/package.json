@@ -1,0 +1,49 @@
+{
+	"name": "tokyo-night-frameless",
+	"displayName": "Tokyo Night Frameless",
+	"description": "Frameless themes based on Enkia's Tokyo Night.",
+	"version": "0.1.9",
+	"publisher": "MagdalenaLipka",
+	"repository": "https://github.com/magdalenalipka/tokyo-night-frameless",
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#1f2335",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "^1.54.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Tokyo Night Storm Frameless",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Tokyo Night Storm Frameless-color-theme.json"
+			},
+			{
+				"label": "Tokyo Night Frameless",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Tokyo Night Frameless-color-theme.json"
+			},
+			{
+				"label": "Tokyo Night Light Frameless",
+				"uiTheme": "vs",
+				"path": "./themes/Tokyo Night Light Frameless-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "e87d4e3b-0819-4408-b9ad-f37e629f1c14",
+		"publisherId": "9e6106e7-7fe5-4430-b1ba-a9b025491ad9",
+		"publisherDisplayName": "MagdalenaLipka",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1704971865214,
+		"pinned": false,
+		"preRelease": false
+	}
+}

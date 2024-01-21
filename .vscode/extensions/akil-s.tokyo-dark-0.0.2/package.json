@@ -1,0 +1,33 @@
+{
+	"publisher": "akil-s",
+	"repository": "https://github.com/Salah-Akil/tokyo-vscode-dark.git",
+	"name": "tokyo-dark",
+	"displayName": "Tokyo (Dark)",
+	"description": "Tokyo dark theme for VSCode",
+	"version": "0.0.2",
+	"engines": {
+		"vscode": "^1.43.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Tokyo (Dark)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/tokyo-dark-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "c0a2d7fc-b6fe-4e1e-8aeb-9646fcde9809",
+		"publisherId": "4f709fa5-2ceb-4c70-8cbe-3c71c7cf78a9",
+		"publisherDisplayName": "akil-s",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1704670428822,
+		"preRelease": false
+	}
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Editor Colors",
+  "include": "./workbench.json",
+  "tokenColors": [
+    {
+      "scope": "markup.italic",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "heading.2",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.bold",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}

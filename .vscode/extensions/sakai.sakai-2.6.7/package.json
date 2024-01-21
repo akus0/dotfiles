@@ -1,0 +1,102 @@
+{
+	"name": "sakai",
+	"version": "2.6.7",
+	"publisher": "Sakai",
+	"description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist",
+	"license": "MIT",
+	"repository": {
+		"url": "https://github.com/Sakai-UI/visual-studio-code"
+	},
+	"funding": "https://github.com/Sakai-UI/visual-studio-code?sponsor=1",
+	"sponsor": {
+		"url": "https://github.com/Sakai-UI/visual-studio-code?sponsor=1"
+	},
+	"author": {
+		"name": "Pablo Severino",
+		"email": "pabloseverino40@gmail.com"
+	},
+	"type": "module",
+	"engines": {
+		"vscode": "^1.57.0"
+	},
+	"scripts": {
+		"build": "pinecone && npm run format",
+		"watch": "pinecone --watch",
+		"format": "prettier --write .",
+		"release": "npx np@latest --no-publish --no-tests",
+		"version": "npm run build && npm run format"
+	},
+	"icon": "assets/icon.png",
+	"displayName": "Sakai Theme",
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"minimal",
+		"aesthetic",
+		"pastel",
+		"classy",
+		"soft"
+	],
+	"galleryBanner": {
+		"color": "#191724",
+		"theme": "dark"
+	},
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "sakai-icons",
+				"label": "Sakai Theme Icons",
+				"path": "./icons/sakai-icon-theme.json"
+			}
+		],
+		"themes": [
+			{
+				"label": "Sakai Theme Saturn",
+				"uiTheme": "vs-dark",
+				"path": "./themes/sakai-theme-saturn.json"
+			},
+			{
+				"label": "Sakai Theme Uranus",
+				"uiTheme": "vs-dark",
+				"path": "./themes/sakai-theme-uranus.json"
+			},
+			{
+				"label": "Sakai Theme Sun",
+				"uiTheme": "vs-dark",
+				"path": "./themes/sakai-theme-sun.json"
+			},
+			{
+				"label": "Sakai Theme Moon",
+				"uiTheme": "vs-dark",
+				"path": "./themes/sakai-theme-moon.json"
+			},
+			{
+				"label": "Sakai Theme Jupiter",
+				"uiTheme": "vs-dark",
+				"path": "./themes/sakai-theme-jupiter.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"@rose-pine/palette": "3.0.1",
+		"pinecone-cli": "^4.0.1",
+		"prettier": "^2.8.7"
+	},
+	"prettier": {
+		"semi": false,
+		"singleQuote": true,
+		"useTabs": true
+	},
+	"__metadata": {
+		"id": "ef6ba7fc-cccf-4bb5-8dbe-ef8ef660bf32",
+		"publisherId": "207a66b0-4008-42cf-926a-ec569f56bf5c",
+		"publisherDisplayName": "Sakai",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1705103250493,
+		"pinned": false,
+		"preRelease": false
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"name": "dark-pines",
+	"displayName": "Dark Pines",
+	"description": "Dark theme based off Base 16 Ocean color scheme",
+	"version": "1.4.5",
+	"engines": {
+		"vscode": "^1.58.0"
+	},
+	"publisher": "evanl",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/evan-leigh/dark-pines-theme"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"space gray",
+		"saturated",
+		"base16 ocean",
+		"base16",
+		"base 16",
+		"darkpine",
+		"darkpines",
+		"dark pines",
+		"dark pine",
+		"pine",
+		"dark"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dark Pines",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-pines.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "97c13f74-c6c9-4a08-b234-718a2e296d94",
+		"publisherId": "46b8c991-2d53-493a-95a9-a98aeb6824ef",
+		"publisherDisplayName": "evanl",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1705103147772,
+		"pinned": false,
+		"preRelease": false
+	}
+}

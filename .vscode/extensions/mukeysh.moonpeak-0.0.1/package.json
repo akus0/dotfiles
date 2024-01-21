@@ -1,0 +1,33 @@
+{
+	"name": "moonpeak",
+	"displayName": "moonpeak",
+	"description": "Moonpeak is a serene and refreshing theme inspired by the beauty of mountains, snow-capped peaks, pine trees, and the tranquility of nature. This theme aims to provide a calming and immersive coding experience while maintaining readability and visual appeal.",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.80.0"
+	},
+	"publisher": "Mukeysh",
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "moonpeak",
+				"uiTheme": "vs",
+				"path": "./themes/moonpeak-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "21c6c46a-345f-4bd5-aebb-d268b027c3b7",
+		"publisherId": "7bf04cc7-117f-4d2f-a7d5-bfffeb26dedf",
+		"publisherDisplayName": "Mukeysh",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1705103182063,
+		"pinned": false,
+		"preRelease": false
+	}
+}
