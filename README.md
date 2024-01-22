@@ -35,7 +35,7 @@
 
 - Set GitHub repo as the remote origin:
     ```bash
-    dotfiles remote add origin https://github.com/MattAshford/dotfiles.git
+    dotfiles remote add origin https://github.com/akus0/dotfiles.git
     ```
 
 - Push changes to GitHub:
