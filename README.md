@@ -10,7 +10,7 @@
     git init --bare $HOME/dotfiles
     ```
     
-- [Create a new repository on GitHub](https://github.com/MattAshford/dotfiles):
+- [Create a new repository on GitHub](https://github.com/akus0/dotfiles):
       
 - Add an alias to your shell configuration file:
     ```bash
