@@ -13,7 +13,7 @@ return {
 				--  disable_float_background = true,
 				styles = {
 					bold = true,
-					italic = false,
+					italic = true,
 					transparency = false,
 				},
 

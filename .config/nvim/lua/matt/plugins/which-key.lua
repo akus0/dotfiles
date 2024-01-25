@@ -36,6 +36,7 @@ return {
 			b = { name = "buffer" },
 			s = { name = "search" },
 			f = { name = "find" },
+			--	c = { name = "chatpilot" },
 			-- g = { name = "git" },
 			r = { name = "refactor" },
 			l = { name = "lsp" },
