@@ -44,7 +44,7 @@ return {
     highlight RainbowDelimiterBlue guifg=#31748f ctermfg=White
     highlight RainbowDelimiterOrange guifg=#9ccfd8 ctermfg=White
     highlight RainbowDelimiterGreen guifg=#c4a7e7 ctermfg=White
-    highlight RainbowDelimiterViolet guifg=#e0def4 ctermfg=White
-    highlight RainbowDelimiterCyan guifg=#908caa ctermfg=White
+    highlight RainbowDelimiterViolet guifg=#ebbcba ctermfg=White
+    highlight RainbowDelimiterCyan guifg=#d7827e ctermfg=White
   ]]),
 }

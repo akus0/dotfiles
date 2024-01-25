@@ -13,7 +13,7 @@ return {
 				--  disable_float_background = true,
 				styles = {
 					bold = true,
-					italic = true,
+					italic = false,
 					transparency = false,
 				},
 
@@ -57,7 +57,7 @@ return {
 				highlight_groups = {
 					--StatusLine = { fg = "love", bg = "love", blend = 10 },
 					--StatusLineNC = { fg = "subtle", bg = "surface" },
-
+					Comment = { italic = true },
 					TelescopeBorder = { fg = "highlight_high", bg = "none" },
 					TelescopeNormal = { bg = "none" },
 					TelescopePromptNormal = { bg = "base" },
