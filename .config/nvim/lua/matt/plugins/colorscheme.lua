@@ -13,7 +13,7 @@ return {
 				--  disable_float_background = true,
 				styles = {
 					bold = true,
-					italic = false,
+					italic = true,
 					transparency = false,
 				},
 
@@ -64,6 +64,9 @@ return {
 					TelescopeResultsNormal = { fg = "subtle", bg = "none" },
 					TelescopeSelection = { fg = "text", bg = "base" },
 					TelescopeSelectionCaret = { fg = "rose", bg = "rose" },
+					String = { fg = "#c28686" },
+          Number = { fg = "#eb6f92" },
+
 
 					NormalFloat = { bg = "overlay" },
 					FloatBorder = { bg = "surface" },

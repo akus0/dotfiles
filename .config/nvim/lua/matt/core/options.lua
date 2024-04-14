@@ -17,7 +17,7 @@ opt.incsearch = true
 opt.undofile = true
 
 -- Display matching brackets/parentheses
-opt.showmatch = true
+--opt.showmatch = true
 
 --tabs & indentation
 opt.tabstop = 2
@@ -26,22 +26,22 @@ opt.expandtab = true
 opt.autoindent = true
 
 --Scroll Settings
-opt.scrolloff = 15 
+opt.scrolloff = 15
 
--- Display a ruler at a specified column (e.g., 80)
---opt.colorcolumn = '80'
+-- Set the colorcolumn to highlight column 80 with the custom highlight group
+-- opt.colorcolumn = "80"
 
---line wrapping 
+--line wrapping
 opt.wrap = false
 
 --search settings
 opt.ignorecase = true
 opt.smartcase = true
 opt.hlsearch = false
-opt.incsearch =  true
+opt.incsearch = true
 
 --appearance
-opt.termguicolors = true 
+opt.termguicolors = true
 opt.background = "dark"
 opt.signcolumn = "auto"
 --opt.colorcolumn = "80"
@@ -52,7 +52,7 @@ opt.backspace = "indent,eol,start"
 --undo
 opt.swapfile = false
 opt.backup = false
-opt.undodir = vim.fn.stdpath('data') .. '/undodir'
+opt.undodir = vim.fn.stdpath("data") .. "/undodir"
 opt.undofile = true
 
 --clipboard
@@ -64,6 +64,3 @@ opt.splitbelow = true
 
 opt.iskeyword:append("-")
 opt.updatetime = 50
-
-
-

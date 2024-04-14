@@ -70,6 +70,15 @@ return {
 			vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = "" })
 		end
 
+		require("lspconfig").clangd.setup({
+			on_attach = on_attach,
+			capabilities = cmp_nvim_lsp.default_capabilities(),
+			cmd = {
+				"clangd",
+				"--offset-encoding=utf-16",
+			},
+		})
+
 		-- configure html server
 		lspconfig["html"].setup({
 			capabilities = capabilities,
@@ -90,6 +99,12 @@ return {
 
 		-- configure tailwindcss server
 		lspconfig["tailwindcss"].setup({
+			capabilities = capabilities,
+			on_attach = on_attach,
+		})
+
+		-- configure Fortran server
+		lspconfig["fortls"].setup({
 			capabilities = capabilities,
 			on_attach = on_attach,
 		})

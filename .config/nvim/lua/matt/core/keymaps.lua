@@ -18,7 +18,6 @@ vim.keymap.set("n", "n", "nzzzv")
 -- Move to the previous search result and center the screen
 vim.keymap.set("n", "N", "Nzzzv")
 
-
 -- Clipboard Operations
 -- Delete selected text in visual mode and paste it elsewhere
 -- vim.keymap.set("x", "<leader>p", [["_dP]])
@@ -31,7 +30,6 @@ vim.keymap.set("n", "N", "Nzzzv")
 -- --paste from system clipboard
 -- vim.keymap.set("n", "<leader>p", [["*p]])
 
-
 -- Buffer Navigation //not working
 vim.keymap.set("n", "<leader>bn", ":bnext<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>bp", ":bprevious<CR>", { noremap = true, silent = true })
@@ -41,12 +39,10 @@ vim.keymap.set("n", "<leader>bd", ":bd<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>bl", ":Telescope buffers<CR>", { noremap = true, silent = true })
 
 -- Insert Mode and Miscellaneous
--- Exit insert mode with Ctrl-c 
+-- Exit insert mode with Ctrl-c
 vim.keymap.set("i", "<C-c>", "<Esc>")
 -- Disable mapping for Q in normal mode
 vim.keymap.set("n", "Q", "<nop>")
-
-
 
 -- Terminal and LSP
 -- Open tmux sessionizer in a new tmux window
@@ -55,8 +51,6 @@ vim.keymap.set("n", "Q", "<nop>")
 --vim.keymap.set("i", "vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
 -- Format code using LSP
 --vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
-
-
 
 -- Quickfix and Location List
 -- Move to the next quickfix entry and center the screen
@@ -76,8 +70,6 @@ vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
 -- Search and replace with confirmation
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
-
-
 -- File Operations
 -- Make the current file executable
 vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
@@ -86,10 +78,8 @@ vim.keymap.set("n", "<leader>vpp", "<cmd>e ~/.dotfiles/nvim/.config/nvim/lua/the
 -- Run CellularAutomaton make_it_rain command
 vim.keymap.set("n", "<leader>mr", "<cmd>CellularAutomaton make_it_rain<CR>")
 
-
-
 -- Miscellaneous
 -- Source the current file
 vim.keymap.set("n", "<leader><leader>", function()
-    vim.cmd("so")
+	vim.cmd("so")
 end)

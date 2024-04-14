@@ -40,7 +40,7 @@ return {
 
 	vim.cmd([[
     highlight RainbowDelimiterRed  guifg=#eb6f92 ctermfg=White
-    highlight RainbowDelimiterYellow guifg=#f6c177 ctermfg=White
+    highlight RainbowDelimiterYellow guifg=#c28686" ctermfg=White
     highlight RainbowDelimiterBlue guifg=#31748f ctermfg=White
     highlight RainbowDelimiterOrange guifg=#9ccfd8 ctermfg=White
     highlight RainbowDelimiterGreen guifg=#c4a7e7 ctermfg=White

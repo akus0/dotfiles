@@ -4,6 +4,7 @@ return {
 	event = { "BufReadPre", "BufNewFile" }, -- to enable uncomment this
 	dependencies = {
 		"jay-babu/mason-null-ls.nvim",
+		"nvimtools/none-ls-extras.nvim",
 	},
 	config = function()
 		local mason_null_ls = require("mason-null-ls")
@@ -37,18 +38,23 @@ return {
 			sources = {
 				--  to disable file types use
 				--  "formatting.prettier.with({disabled_filetypes: {}})" (see null-ls docs)
+				require("none-ls.diagnostics.eslint_d"),
+				require("none-ls.diagnostics.cpplint"),
+				require("none-ls.formatting.jq"),
+				require("none-ls.code_actions.eslint"),
 				formatting.prettier.with({
 					extra_filetypes = { "svelte", "tsx", "typescript", "typescriptreact" },
 				}), -- js/ts formatter
 				formatting.stylua, -- lua formatter
 				formatting.isort,
 				formatting.black,
+				formatting.clang_format, -- Add clang-format for C/C++ files
 				diagnostics.pylint,
-				diagnostics.eslint_d.with({ -- js/ts linter
-					condition = function(utils)
-						return utils.root_has_file({ ".eslintrc.js", ".eslintrc.cjs" }) -- only enable if root has .eslintrc.js or .eslintrc.cjs
-					end,
-				}),
+				-- diagnostics.eslint_d.with({ -- js/ts linter
+				-- 	condition = function(utils)
+				-- 		return utils.root_has_file({ ".eslintrc.js", ".eslintrc.cjs" }) -- only enable if root has .eslintrc.js or .eslintrc.cjs
+				-- 	end,
+				-- }),
 			},
 			-- configure format on save
 			on_attach = function(current_client, bufnr)
