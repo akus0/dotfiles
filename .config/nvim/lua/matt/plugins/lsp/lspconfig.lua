@@ -76,6 +76,7 @@ return {
 			cmd = {
 				"clangd",
 				"--offset-encoding=utf-16",
+				"--include=/opt/homebrew/include/SDL2/", -- Replace "/path/to/sdl/include" with the actual path to your SDL include directory
 			},
 		})
 

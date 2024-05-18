@@ -7,6 +7,9 @@ opt.number = true
 --keep block cursor
 opt.guicursor = ""
 
+-- Set cursor blinking with a slower blink time
+-- opt.guicursor = "a:blinkon800"
+
 -- Enable line highlighting for the current line
 opt.cursorline = true
 
@@ -64,3 +67,11 @@ opt.splitbelow = true
 
 opt.iskeyword:append("-")
 opt.updatetime = 50
+
+vim.api.nvim_exec(
+	[[
+  let g:ale_c_cflags = '-I/opt/homebrew/include'
+  let g:ale_c_cc_options = '-L/opt/homebrew/lib -lSDL2'
+]],
+	false
+)

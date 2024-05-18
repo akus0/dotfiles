@@ -1,3 +1,5 @@
 # pack-refs with: peeled fully-peeled sorted 
-6d7fef93fa443e8b28ee90ad9d8551affdf93c44 refs/heads/master
-69fcfaa8a0a7d1fac0904b200394e54293bc015f refs/remotes/origin/master
+3e1e20cce91ba9ff5273d0c3a46fedd606bc4882 refs/heads/master
+80a5e3bcb35e69ed3b9bdd69db9560864264cf47 refs/remotes/origin/Remove-files
+1e347395009ba95102933402fdb48865f633ab39 refs/remotes/origin/image
+7ee5dc323450bfc5acd311c467b1c0daaa890ae5 refs/remotes/origin/master

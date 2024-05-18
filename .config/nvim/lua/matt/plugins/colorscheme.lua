@@ -16,11 +16,6 @@ return {
 					italic = true,
 					transparency = false,
 				},
-
-				-- transparency_highlights = {
-				-- NormalFloat = { bg = "#2E3440" },
-				--},
-
 				groups = {
 					border = "muted",
 					link = "iris",
@@ -29,7 +24,7 @@ return {
 					error = "love",
 					hint = "iris",
 					info = "foam",
-					warn = "gold",
+					warn = "#f7b777",
 
 					git_add = "foam",
 					git_change = "rose",
@@ -46,7 +41,7 @@ return {
 						h1 = "iris",
 						h2 = "foam",
 						h3 = "rose",
-						h4 = "gold",
+						h4 = "#315e4b",
 						h5 = "pine",
 						h6 = "foam",
 					},
@@ -57,6 +52,11 @@ return {
 				highlight_groups = {
 					--StatusLine = { fg = "love", bg = "love", blend = 10 },
 					--StatusLineNC = { fg = "subtle", bg = "surface" },
+					-- Float = { fg = "#D68C63" },
+					-- Character = { fg = "#D68C63" },
+					-- Variable = { fg = "#D68C63" },
+					-- Constant = { fg = "#D68C63" },
+
 					Comment = { italic = true },
 					TelescopeBorder = { fg = "highlight_high", bg = "none" },
 					TelescopeNormal = { bg = "none" },
@@ -64,27 +64,25 @@ return {
 					TelescopeResultsNormal = { fg = "subtle", bg = "none" },
 					TelescopeSelection = { fg = "text", bg = "base" },
 					TelescopeSelectionCaret = { fg = "rose", bg = "rose" },
-					String = { fg = "#c28686" },
-          Number = { fg = "#eb6f92" },
-
+					String = { fg = "#fcb080" }, -- { fg = "#ffae70" }, -- { fg = "#c28686" },
+					Number = { fg = "#eb6f92" },
+					Operator = { fg = "#68998a" },
+					Boolean = { fg = "#eb6f92" },
+					Identifier = { fg = "#315e4b" },
 
 					NormalFloat = { bg = "overlay" },
 					FloatBorder = { bg = "surface" },
 				},
+				before_highlight = function(group, highlight, palette)
+					-- if highlight.fg == palette.foam then
+					-- 	highlight.fg = "#68998a"
+					-- end
+					if highlight.fg == palette.gold then
+						highlight.fg = "#D68C99"
+					end
+				end,
 			})
-
-			before_highlight =
-				function(group, highlight, palette)
-					-- Disable all undercurls
-					-- if highlight.undercurl then
-					--     highlight.undercurl = false
-					-- end
-					--
-					-- Change palette colour
-					-- if highlight.fg == palette.pine then
-					--     highlight.fg = palette.foam
-					-- end
-				end, vim.cmd([[colorscheme rose-pine]])
+			vim.cmd([[colorscheme rose-pine]])
 		end,
 	},
 }

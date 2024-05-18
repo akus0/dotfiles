@@ -117,3 +117,7 @@ source ~/developer/iTerm2_Theme/Powerlevel10k/powerlevel10k.zsh-theme
 
 alias dotfiles="/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
 alias dotfiles="/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
+
+# fzf
+source /opt/homebrew/Cellar/fzf/0.50.0/shell/key-bindings.zsh
+source /opt/homebrew/Cellar/fzf/0.50.0/shell/completion.zsh
